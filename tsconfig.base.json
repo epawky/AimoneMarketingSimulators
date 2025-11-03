@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": ["ES2022", "DOM", "DOM.Iterable"],
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "baseUrl": ".",
+    "paths": {
+      "@aimone/types": ["packages/types/src"],
+      "@aimone/chapter-sdk": ["packages/chapter-sdk/src"],
+      "@aimone/shared-ui": ["packages/shared-ui/src"],
+      "@aimone/prompts": ["packages/prompts/src"]
+    },
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true
+  }
+}

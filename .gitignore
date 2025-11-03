@@ -1,0 +1,11 @@
+node_modules
+dist
+.next
+out
+coverage
+.env*
+.vercel
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite-journal
+/.vs/slnx.sqlite
+/.vs/ProjectSettings.json
