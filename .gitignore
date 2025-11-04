@@ -1,11 +1,102 @@
-node_modules
-dist
-.next
-out
-coverage
+# --- OS / Editor junk ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+*.swp
+*.swo
+*.orig
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+
+# --- Visual Studio ---
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# --- Node / JS ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+package-lock.json # keep if you prefer locking via npm
+# .pnpm-store keeps pnpm’s global cache out of the repo
+.pnpm-store/
+# Build output
+dist/
+.next/
+out/
+# Tooling caches
+.eslintcache
+.stylelintcache
+.turbo/
+.parcel-cache/
+.nyc_output/
+.cache/
+.swc/
+.vite/
+
+# --- Next.js specific (covered above, but explicit doesn't hurt) ---
+.next/cache/
+
+# --- Coverage reports ---
+coverage/
+coverage.xml
+lcov.info
+*.lcov
+.coverage*
+htmlcov/
+
+# --- Env / secrets ---
 .env*
-.vercel
+!.env.example   # keep a sample env if you want
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.tox/
+.pyre/
+.coverage
+pip-wheel-metadata/
+*.egg-info/
+.eggs/
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+# Poetry local venv (if enabled)
+.poetry/
+# Local DBs
+*.sqlite3
+db.sqlite3
+
+# --- Framework/build extras ---
+build/
+logs/
+*.log
+
+# --- Vercel ---
+.vercel/
+
+# --- VS workspace artifacts you listed (redundant, but keep together) ---
 /.vs/VSWorkspaceState.json
 /.vs/slnx.sqlite-journal
 /.vs/slnx.sqlite
 /.vs/ProjectSettings.json
+/.vs/AimoneMarketingSimulators/v17
+/.vs/AimoneMarketingSimulators
